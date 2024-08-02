@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Nested Tables</title>
+        <style>
+            body{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                height: 100px;
+            }
+            table table {
+                border: 2px solid blue;
+            }
+            td{
+                padding: 10px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="color: green;">GreeksforGreeks</h1>
+        <table border="2">
+            <tr>
+                <td>Main Table row 1 column 1</td>
+                <td> Main Table  column 2
+                    <table border="2">
+                        <tr>
+                            <td> Inner table row 1 column 1</td>
+                            <td> Inner table row 1 column 2</td>
+                        </tr>
+                        <tr>
+                            <td> Inner table row 2 column 1</td>
+                            <td> Inner table row 2 column 2</td>
+                        </tr>
+                        <tr>
+                            <td> Inner table row 3 column 1</td>
+                            <td> Inner table row 3 column 2</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td> Main table row 2 column 1</td>
+                <td> Main Table row 2 column 2</td>
+            </tr>
+
+        </table>
+    </body>
+</html>
